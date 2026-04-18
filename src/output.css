@@ -185,8 +185,23 @@
   .h-\[42px\] {
     height: 42px;
   }
+  .h-\[80px\] {
+    height: 80px;
+  }
   .h-\[90px\] {
     height: 90px;
+  }
+  .h-\[130px\] {
+    height: 130px;
+  }
+  .h-\[139px\] {
+    height: 139px;
+  }
+  .h-\[170px\] {
+    height: 170px;
+  }
+  .h-\[180px\] {
+    height: 180px;
   }
   .h-\[228px\] {
     height: 228px;
@@ -197,14 +212,38 @@
   .h-\[643px\] {
     height: 643px;
   }
+  .h-\[1043px\] {
+    height: 1043px;
+  }
+  .h-\[1385px\] {
+    height: 1385px;
+  }
   .h-\[1643px\] {
     height: 1643px;
   }
   .w-\[154px\] {
     width: 154px;
   }
+  .w-\[164px\] {
+    width: 164px;
+  }
   .w-\[185px\] {
     width: 185px;
+  }
+  .w-\[213px\] {
+    width: 213px;
+  }
+  .w-\[262px\] {
+    width: 262px;
+  }
+  .w-\[264px\] {
+    width: 264px;
+  }
+  .w-\[272px\] {
+    width: 272px;
+  }
+  .w-\[278px\] {
+    width: 278px;
   }
   .w-\[280px\] {
     width: 280px;
@@ -212,11 +251,32 @@
   .w-\[280xp\] {
     width: 280xp;
   }
+  .w-\[282px\] {
+    width: 282px;
+  }
+  .w-\[292px\] {
+    width: 292px;
+  }
   .w-\[324px\] {
     width: 324px;
   }
+  .w-\[328px\] {
+    width: 328px;
+  }
+  .w-\[414\] {
+    width: 414;
+  }
+  .w-\[414px\] {
+    width: 414px;
+  }
   .w-\[450px\] {
     width: 450px;
+  }
+  .w-\[1264px\] {
+    width: 1264px;
+  }
+  .w-\[2264px\] {
+    width: 2264px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -226,6 +286,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -292,6 +355,9 @@
   .text-\[14px\] {
     font-size: 14px;
   }
+  .text-\[16px\] {
+    font-size: 16px;
+  }
   .text-\[20px\] {
     font-size: 20px;
   }
@@ -316,6 +382,10 @@
     --tw-font-weight: 600;
     font-weight: 600;
   }
+  .font-\[700\] {
+    --tw-font-weight: 700;
+    font-weight: 700;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -323,6 +393,10 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
+  }
+  .tracking-\[0\.2px\] {
+    --tw-tracking: 0.2px;
+    letter-spacing: 0.2px;
   }
   .text-\[30p\] {
     color: 30p;
@@ -375,14 +449,34 @@
       display: none;
     }
   }
+  .lg\:h-\[40px\] {
+    @media (width >= 64rem) {
+      height: 40px;
+    }
+  }
   .lg\:h-\[60px\] {
     @media (width >= 64rem) {
       height: 60px;
     }
   }
+  .lg\:h-\[80px\] {
+    @media (width >= 64rem) {
+      height: 80px;
+    }
+  }
+  .lg\:h-\[90px\] {
+    @media (width >= 64rem) {
+      height: 90px;
+    }
+  }
   .lg\:h-\[100px\] {
     @media (width >= 64rem) {
       height: 100px;
+    }
+  }
+  .lg\:h-\[114px\] {
+    @media (width >= 64rem) {
+      height: 114px;
     }
   }
   .lg\:h-\[200px\] {
@@ -410,9 +504,24 @@
       height: 600px;
     }
   }
+  .lg\:h-\[721px\] {
+    @media (width >= 64rem) {
+      height: 721px;
+    }
+  }
   .lg\:w-\[376px\] {
     @media (width >= 64rem) {
       width: 376px;
+    }
+  }
+  .lg\:w-\[435px\] {
+    @media (width >= 64rem) {
+      width: 435px;
+    }
+  }
+  .lg\:w-\[470px\] {
+    @media (width >= 64rem) {
+      width: 470px;
     }
   }
   .lg\:w-\[509\] {
@@ -423,6 +532,11 @@
   .lg\:w-\[509px\] {
     @media (width >= 64rem) {
       width: 509px;
+    }
+  }
+  .lg\:w-\[1050px\] {
+    @media (width >= 64rem) {
+      width: 1050px;
     }
   }
   .lg\:w-\[1440px\] {
@@ -480,14 +594,46 @@
       gap: 250px;
     }
   }
+  .lg\:gap-y-\[24px\] {
+    @media (width >= 64rem) {
+      row-gap: 24px;
+    }
+  }
+  .lg\:border {
+    @media (width >= 64rem) {
+      border-style: var(--tw-border-style);
+      border-width: 1px;
+    }
+  }
+  .lg\:border-1 {
+    @media (width >= 64rem) {
+      border-style: var(--tw-border-style);
+      border-width: 1px;
+    }
+  }
+  .lg\:border-\[white\] {
+    @media (width >= 64rem) {
+      border-color: white;
+    }
+  }
   .lg\:text-left {
     @media (width >= 64rem) {
       text-align: left;
     }
   }
+  .lg\:text-\[40px\] {
+    @media (width >= 64rem) {
+      font-size: 40px;
+    }
+  }
   .lg\:text-\[58px\] {
     @media (width >= 64rem) {
       font-size: 58px;
+    }
+  }
+  .lg\:text-\[\#737373\] {
+    @media (width >= 64rem) {
+      color: #737373;
     }
   }
   .lg\:text-\[5\] {
@@ -509,6 +655,10 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-tracking {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-outline-style {
   syntax: "*";
   inherits: false;
@@ -520,6 +670,7 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
+      --tw-tracking: initial;
       --tw-outline-style: solid;
     }
   }
